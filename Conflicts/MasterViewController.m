@@ -85,4 +85,12 @@
     }
 }
 
+
+-(void)tableView:(nonnull UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+
+
+    
+
+}
+
 @end

@@ -15,6 +15,7 @@
 		8B5939591B46F955005480E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5939581B46F955005480E4 /* Images.xcassets */; };
 		8B59395C1B46F955005480E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B59395A1B46F955005480E4 /* LaunchScreen.xib */; };
 		8B5939681B46F956005480E4 /* ConflictsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5939671B46F956005480E4 /* ConflictsTests.m */; };
+		8BC83D681B4726660071983A /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC83D671B4726660071983A /* SecondStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		8B5939611B46F956005480E4 /* ConflictsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConflictsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5939661B46F956005480E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B5939671B46F956005480E4 /* ConflictsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConflictsTests.m; sourceTree = "<group>"; };
+		8BC83D671B4726660071983A /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				8B5939521B46F955005480E4 /* DetailViewController.h */,
 				8B5939531B46F955005480E4 /* DetailViewController.m */,
 				8B5939551B46F955005480E4 /* Main.storyboard */,
+				8BC83D671B4726660071983A /* SecondStoryboard.storyboard */,
 				8B5939581B46F955005480E4 /* Images.xcassets */,
 				8B59395A1B46F955005480E4 /* LaunchScreen.xib */,
 				8B5939481B46F955005480E4 /* Supporting Files */,
@@ -207,6 +210,7 @@
 				8B5939571B46F955005480E4 /* Main.storyboard in Resources */,
 				8B59395C1B46F955005480E4 /* LaunchScreen.xib in Resources */,
 				8B5939591B46F955005480E4 /* Images.xcassets in Resources */,
+				8BC83D681B4726660071983A /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				8B59396D1B46F956005480E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B59396E1B46F956005480E4 /* Build configuration list for PBXNativeTarget "ConflictsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +435,7 @@
 				8B5939701B46F956005480E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
