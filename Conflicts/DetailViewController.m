@@ -19,7 +19,10 @@
 - (void)setDetailItem:(id)newDetailItem {
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
-            
+        
+        
+        
+        NSLog(@"This is a change on the second conflict clone");
         // Update the view.
         [self configureView];
     }
