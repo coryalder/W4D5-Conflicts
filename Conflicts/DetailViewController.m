@@ -15,6 +15,18 @@
 @implementation DetailViewController
 
 #pragma mark - Managing the detail item
+- (IBAction)showNextSection:(id)sender {
+    
+    UIStoryboard *storyboardTwo = [UIStoryboard storyboardWithName:@"SecondStoryboard" bundle:nil];
+    
+//    [storyboardTwo instantiateViewControllerWithIdentifier:<#(nonnull NSString *)#>]
+    
+    UIViewController *vc = [storyboardTwo instantiateInitialViewController];
+    
+    [self presentViewController:vc animated:YES completion:nil];
+    
+    
+}
 
 - (void)setDetailItem:(id)newDetailItem {
     if (_detailItem != newDetailItem) {
